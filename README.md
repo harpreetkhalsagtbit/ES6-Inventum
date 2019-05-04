@@ -3,10 +3,10 @@ ES6 Codelab session ES6
 
 # Topics
 
-- [ ] Arrow Functions
-- [ ] Function Default Params Functions
-- [ ] Let, Const and Var
-- [ ] Template Literals
-- [ ] Spread Operator, Destructuring, Rest Operators
+- [X] Arrow Functions
+- [X] Function Default Params Functions
+- [X] Let, Const and Var
+- [X] Template Literals
+- [X] Spread Operator, Destructuring, Rest Operators
 - [ ] Promises
 - [ ] Generators
