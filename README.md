@@ -10,6 +10,6 @@ ES6 Codelab session ES6
   - [X] Template Literals
   - [X] Spread Operator, Destructuring, Rest Operators
 
-- Session 1:
+- Session 2:
   - [ ] Promises
   - [ ] Generators
