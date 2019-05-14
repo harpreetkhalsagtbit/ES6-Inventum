@@ -14,7 +14,8 @@ ES6 Codelab session ES6
   - [ ] Promises
   - [ ] Generators
 
-#Note:
+# Note:
+
 You can notice that the code in the files is written in a irregular way. It is because I have used a `VSCode` extension [quokka](https://quokkajs.com/docs/index.html) which allows us to see the output of our code instantly in the code editor window. So the code actually is a multiple small snippets to understand the concepts of ES6 features in a Practise and Learn way.
 
 To run code file with quokka
