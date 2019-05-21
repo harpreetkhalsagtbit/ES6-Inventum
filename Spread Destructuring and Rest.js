@@ -522,6 +522,22 @@ function setDetailsObj4(num1, num2, ...all) {
 
 setDetailsObj4(...[1,2,3,4])
 
+function head([head, ...tail]) {
+    return head;
+}
+function tail([head, ...tail]) {
+    return tail;
+}
+// or with arrow function syntax
+var head = ([head, ...tail]) => head;
+var tail = ([head, ...tail]) => tail;
+console.log(head([1, 2, 3, 4]))
+console.log(tail([1, 2, 3, 4]))
+
+var [head, ...tail] = [1, 2, 3, 4]
+head
+tail
+
 var details = {
     name:"harpreet",
     age:10,
