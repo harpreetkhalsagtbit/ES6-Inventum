@@ -102,7 +102,7 @@ city
 // If Spread operator expands individual items, then rest operator collects
 // a bunch of items and puts them into arrays and objects.
 
-// When spread is used as destructured way - It is called as Rest Operator
+// Spread and Destructuring together
 var numbers = [1, 2, 3];
 var [ firstNumber, ...restOfTheNumbers ] = numbers;
 console.log(firstNumber, restOfTheNumbers);
@@ -521,6 +521,22 @@ function setDetailsObj4(num1, num2, ...all) {
 }
 
 setDetailsObj4(...[1,2,3,4])
+
+function head([head, ...tail]) {
+    return head;
+}
+function tail([head, ...tail]) {
+    return tail;
+}
+// or with arrow function syntax
+var head = ([head, ...tail]) => head;
+var tail = ([head, ...tail]) => tail;
+console.log(head([1, 2, 3, 4]))
+console.log(tail([1, 2, 3, 4]))
+
+var [head, ...tail] = [1, 2, 3, 4]
+head
+tail
 
 var details = {
     name:"harpreet",
