@@ -56,3 +56,6 @@ console.log(` Sum of two nubers ${5 + 4}`);
 
 var radius = "10";
 console.log(` Area of Circle is ${Math.PI * radius * radius}`);
+
+var csc = require('country-state-city').default
+console.log(csc.getAllCountries())

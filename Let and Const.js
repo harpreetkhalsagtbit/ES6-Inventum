@@ -106,3 +106,285 @@ console.log(myCat.sound); // 'woof'
  * 2. There is no need to continue using var. If you never need to reassign
  *  a variable, you should always be using const, otherwise, use let.
  */
+
+
+ var k = [5,4,3,2,1]
+ console.log(k.slice())
+ console.log(k.slice(0))
+ console.log(k.slice(1))
+ console.log(k.slice(2))
+ console.log(k.slice(3))
+ console.log(k.slice(4))
+k
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(0,0))
+console.log(k.slice(0,1))
+console.log(k.slice(0,2))
+console.log(k.slice(0,3))
+console.log(k.slice(0,4))
+k
+
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(1,0))
+console.log(k.slice(2,1))
+console.log(k.slice(3,2))
+console.log(k.slice(4,3))
+console.log(k.slice(5,4))
+k
+
+
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(1,1))
+console.log(k.slice(2,2))
+console.log(k.slice(3,3))
+console.log(k.slice(4,4))
+console.log(k.slice(5,5))
+k
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(0,9))
+console.log(k.slice(2,5))
+console.log(k.slice(3,4))
+console.log(k.slice(4,3))
+console.log(k.slice(5,2))
+k
+
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(-1))
+console.log(k.slice(-2))
+console.log(k.slice(-3))
+console.log(k.slice(-4))
+console.log(k.slice(-5))
+console.log(k.slice(0, -1))
+console.log(k.slice(0, -2))
+console.log(k.slice(0, -3))
+console.log(k.slice(0, -4))
+console.log(k.slice(0, -5))
+console.log(k.slice(0, -6))
+k
+
+
+ var k = [5,4,3,2,1]
+ console.log(k.slice())
+ console.log(k.slice(0))
+ console.log(k.slice(1))
+ console.log(k.slice(2))
+ console.log(k.slice(3))
+ console.log(k.slice(4))
+k
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(0,0))
+console.log(k.slice(0,1))
+console.log(k.slice(0,2))
+console.log(k.slice(0,3))
+console.log(k.slice(0,4))
+k
+
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(1,0))
+console.log(k.slice(2,1))
+console.log(k.slice(3,2))
+console.log(k.slice(4,3))
+console.log(k.slice(5,4))
+k
+
+
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(1,1))
+console.log(k.slice(2,2))
+console.log(k.slice(3,3))
+console.log(k.slice(4,4))
+console.log(k.slice(5,5))
+k
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(0,9))
+console.log(k.slice(2,5))
+console.log(k.slice(3,4))
+console.log(k.slice(4,3))
+console.log(k.slice(5,2))
+k
+
+console.log(k.slice())
+console.log(k.slice(0))
+console.log(k.slice(-1))
+console.log(k.slice(-2))
+console.log(k.slice(-3))
+console.log(k.slice(-4))
+console.log(k.slice(-5))
+console.log(k.slice(0, -1))
+console.log(k.slice(0, -2))
+console.log(k.slice(0, -3))
+console.log(k.slice(0, -4))
+console.log(k.slice(0, -5))
+console.log(k.slice(0, -6))
+k
+
+
+
+/** Splice */
+
+var k = [5,4,3,2,1]
+console.log(k.splice())
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(1))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(2))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(3))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(4))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(5))
+k
+
+var k = [5,4,3,2,1]
+console.log(k.splice())
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0,0))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0,1))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0,2))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0,3))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0,4))
+k
+
+var k = [5,4,3,2,1]
+console.log(k.splice())
+var k = [5,4,3,2,1]
+console.log(k.splice(0))
+var k = [5,4,3,2,1]
+console.log(k.splice(1,0))
+var k = [5,4,3,2,1]
+console.log(k.splice(2,1))
+var k = [5,4,3,2,1]
+console.log(k.splice(3,2))
+var k = [5,4,3,2,1]
+console.log(k.splice(4,3))
+var k = [5,4,3,2,1]
+console.log(k.splice(5,4))
+k
+
+
+var k = [5,4,3,2,1]
+console.log(k.splice())
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(1,1))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(2,2))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(3,3))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(4,4))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(5,5))
+k
+
+var k = [5,4,3,2,1]
+console.log(k.splice())
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0,9))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(2,5))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(3,4))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(4,3))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(5,2))
+k
+
+var k = [5,4,3,2,1]
+console.log(k.splice())
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(-1))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(-2))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(-3))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(-4))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(-5))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0, -1))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0, -2))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0, -3))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0, -4))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0, -5))
+k
+var k = [5,4,3,2,1]
+console.log(k.splice(0, -6))
+k
+var k = [5,4,3,2,1]
+k
+
+var outer = function a() {
+  console.log(this)
+  return function() {
+    console.log(this)
+  }
+}
+
+console.log(outer()())
+var a = outer()
+a()
